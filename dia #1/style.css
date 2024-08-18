@@ -1,3 +1,35 @@
+@import url('https://fonts.cdnfonts.com/css/cocogoose-pro');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cocogoose Pro', sans-serif;
+}
+
 body{
     background-color: #2e5090;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(132deg, #2e5090,    #6a1ab4);
+    padding: 10px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 450px;
+    background: #cac856;
+    margin: 100px   auto    20px;
+    padding: 40px   30px    70px;
+    border-radius: 10px;
+}
+
+.todo-app   h2{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px ;
 }
