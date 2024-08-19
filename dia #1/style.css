@@ -14,22 +14,60 @@ body{
 .container{
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(132deg, #2e5090,    #6a1ab4);
+    background: linear-gradient(132deg, #2e5090, #9946dd);
     padding: 10px;
 }
 
 .todo-app{
     width: 100%;
-    max-width: 450px;
-    background: #cac856;
+    max-width: 540px;
+    background: #e9e794;
     margin: 100px   auto    20px;
     padding: 40px   30px    70px;
     border-radius: 10px;
 }
 
 .todo-app   h2{
-    color: #002765;
+    color: #2e5090;
     display: flex;
     align-items: center;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 600;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 16px   50px;
+    background: orange;
+    color: #edeef0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+ul  li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px   8px 12px    50px;
+    user-select: none;
+    cursor: pointer ;
 }
